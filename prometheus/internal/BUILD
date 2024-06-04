@@ -10,8 +10,6 @@ package(
 
 exports_files(
     glob([
-        "*.bat",
-        "*.sh",
         "*.sh.tpl",
     ]),
     visibility = ["//visibility:public"],
